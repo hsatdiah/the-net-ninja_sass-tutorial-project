@@ -8,7 +8,7 @@ module.exports = {
   module: {
     loaders: [
       {
-        test:/\.sass$/,
+        test: /\.sass$/,
         loader: 'style-loader!css-loader!sass-loader'
       }
     ],
