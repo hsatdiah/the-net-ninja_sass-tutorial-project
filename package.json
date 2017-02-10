@@ -1,0 +1,20 @@
+{
+  "name": "the-net-ninja_sass-tutorial-project",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^5.0.0",
+    "style-loader": "^0.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsatdiah/the-net-ninja_sass-tutorial-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/hsatdiah/the-net-ninja_sass-tutorial-project#readme"
+}
