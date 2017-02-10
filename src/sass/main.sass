@@ -18,7 +18,7 @@
     display: block
     text-align: center
     &:hover
-      background: #333
+      background: lighten($deepBlue, 7)
   
 section
   h1
@@ -52,6 +52,11 @@ section
     color: $deepBlue
     font-weight: bold
     &:hover
-      color: red
+      color: complement($deepBlue)
   ul
     @include clearfix
+
+#projects li
+  @include grid(6, 2%)
+  img
+    width: 100%
